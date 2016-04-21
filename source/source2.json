@@ -1,0 +1,22 @@
+{
+  "name": "bokete API (popular)",
+  "count": 10,
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "nextrun": "Fri Apr 15 2016 02:53:21 GMT+0000 (UTC)",
+  "thisversionrun": "Thu Apr 14 2016 02:53:21 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/671f2cc2290dc4b7055ce7066dd94058_600.jpg",
+          "text": ""
+        },
+        "property2": "日光国立公園などを擁し、歴史・文化・自然、多彩な観光スポットが点在しています。また、温泉の豊富さも特色のひとつです。"
+      }
+    ]
+  }
+}

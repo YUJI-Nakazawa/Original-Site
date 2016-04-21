@@ -1,0 +1,94 @@
+{
+  "name": "bokete API (popular)",
+  "count": 10,
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "nextrun": "Fri Apr 15 2016 02:53:21 GMT+0000 (UTC)",
+  "thisversionrun": "Thu Apr 14 2016 02:53:21 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/671f2cc2290dc4b7055ce7066dd94058_600.jpg",
+          "text": ""
+        },
+        "property2": "日光国立公園などを擁し、歴史・文化・自然、多彩な観光スポットが点在しています。また、温泉の豊富さも特色のひとつです。"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/6ee56608cb58eaed3aae72a3caaa3c35_600.jpg",
+          "text": ""
+        },
+        "property2": "もう、賭け事はしません。・・・・・・・賭けてもいいです。"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/d57bf7015bacba82705941061475584f_600.jpg",
+          "text": ""
+        },
+        "property2": "ドはレモンのファーーーー！！！！"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/67a0df9db2571c070b5f9034d903e1de_600.jpg",
+          "text": ""
+        },
+        "property2": "人がしんでる！"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/c7a339fe9b9ee2bf55b38b4e0878bba4_600.jpg",
+          "text": ""
+        },
+        "property2": "こうしてる間にも世の中の豆腐たちが麻婆豆腐にされてることを思うと、試合どころではない。そう、試合どころではないのだ。"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/88248a58d2336df65bf4ae728cb16680_600.jpg",
+          "text": ""
+        },
+        "property2": "本校の指定する全課程を修了したものとする"
+      },
+      {
+        "property1": {
+          "alt": "JRA_290_0410_10_",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/4398343f439a07115151806fe3037a4c_600.jpg",
+          "text": ""
+        },
+        "property2": "カッテモバサシが１位だー！"
+      },
+      {
+        "property1": {
+          "alt": "トップをねらえ",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/30892256c6ae8c60e7e4fc003a948343_600.jpg",
+          "text": ""
+        },
+        "property2": "から/から"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/e4ea5274256b1dcfd62e6ae242495c92_600.jpg",
+          "text": ""
+        },
+        "property2": "GREEで知り合った女と意気投合して会ったら七年前に離婚した元妻だった"
+      },
+      {
+        "property1": {
+          "alt": "",
+          "src": "http://d2dcan0armyq93.cloudfront.net/photo/odai/600/58b6d921f05177ff801e4d1990c7cd37_600.jpg",
+          "text": ""
+        },
+        "property2": "「ただいま〜あなたお留守番ありがとう。火の元や水道、電気の消し忘れ大丈夫よn…」"
+      }
+    ]
+  }
+}
