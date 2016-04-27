@@ -53,6 +53,11 @@ function CLOUD_VISON_API($image_path){
     $header = substr( $res1, 0, $res2["header_size"] ) ;		// レスポンスヘッダー
 }
 
+/**
+ * 引数として与えられた文字列を相当する数値に変換する。
+ * @param string $likelihood
+ * @return int $num
+ */
 function Enum2Num($likelihood){
     if($likelihood == 'VERY_UNLIKELY'){
         $num = 1;
@@ -68,6 +73,39 @@ function Enum2Num($likelihood){
         $num = 0;
     }
     return $num;
+}
+
+/**
+ * フォームの再入力時に、すでにセッションに対応した値があるときはその値を返却する
+ * @param mixed $arg formのname属性
+ * @return mixed セッションに入力されていた値
+ */
+function form_value($arg){
+    if(isset($_POST['mode']) && $_POST['mode']=='REINPUT'){
+        if(isset($_SESSION[$arg])){
+            return $_SESSION[$arg];
+        }
+    }
+    else{ //再入力時でない時、セッションにｎullを入れる。
+        $_SESSION[$arg] = null;
+        return $_SESSION[$arg];
+    }
+}
+
+/**
+ * ポストから存在チェックしてからセッションに値を渡す。
+ * 二回目以降のアクセス用に、ポストから値の上書きがされない該当セッションは初期化する
+ * @param mixed $arg
+ * @return mixed
+ */
+function bind_p2s($arg){
+    if(!empty($_POST[$arg])){
+        $_SESSION[$arg] = $_POST[$arg];
+        return $_POST[$arg];
+    }else{
+        $_SESSION[$arg] = null;
+        return null;
+    }
 }
 
 

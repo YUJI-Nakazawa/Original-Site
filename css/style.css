@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* CSS Reset *********************************************************/
+/* v2.0 | 20110126
+  http://meyerweb.com/eric/tools/css/reset/ 
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************************************/
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #e0c8a9;
+    font-family: Verdana;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    background: #3b2715;
+    height: 30%;
+}
+
+nav .subLogo{
+    height: 50px;
+    padding-left: 10px
+}
+
+nav .subLogo:hover{
+    opacity: 0.9 !important;
+}
+
+nav .navFont{
+    color: #ffffff;
+    float: right;
+    font-size: 30px;
+    line-height: 50px;
+    padding-right: 10px;
+}
+nav .navFont:hover{
+    opacity: 0.5 !important;
+}
+nav .navFont:visited{
+    color: #fff;
+}
+
+section{
+    /*height: 500px;*/
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+section h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+section div{
+    font-size: 20px;
+    font-family: 'Hiragino Kaku Gothic Pro' ,sans-serif;
+    /*margin-top: 100px;*/
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+section .mainLogo{
+    height: 160px;
+}
+
+section div a{
+    font-weight: 700;
+    font-size: 30px;
+}
+section div a:hover{
+    opacity: 0.5 !important;
+}
+section div a:visited{
+    color: #000;
+}
+
+section .boke{
+    height: 0;
+    /*vertical-align: middle;*/
+    /*padding-bottom: 60px;*/
+}
+
+section table{
+    margin-left: 100px;
+    /*padding-top: 90px;*/
+}
+
+section table .col_formName{
+    width: 400px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+section table .col_form{
+    display: block;
+    margin-right: auto;
+}
+
+section .content{
+    vertical-align: top;
+}
+
+section table textarea{
+    height: 100px;
+    width: 307px;
+}
+
+section .button{
+    display: block;
+    margin-left: 738px;
+}
+
+footer{
+    width: 100%;
+    background: #3b2715;
+    height:100px;
+    position:absolute;
+    bottom:0;
+}

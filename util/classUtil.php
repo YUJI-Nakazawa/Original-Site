@@ -56,17 +56,16 @@ class MUCHA_BURI{
             // echo 'マッチしたレコードの数は'.$selectSOURCE_num.'件です。';
             $Degree_of_similarity = 0; //文字列の類似度を格納する変数
             for($i = 0; $i < $selectSOURCE_num; $i++){
-                similar_text($imgFeature, $selectSOURCE_result[$i], $percent);
+                similar_text($imgFeature, $selectSOURCE_result[$i]['imgFeature'], $percent);
                 if($Degree_of_similarity < $percent){
                     $Degree_of_similarity = $percent;
-                    $neta = $i;
+                    $matched_index = $i;
                 }
             }
-            echo $Degree_of_similarity.'%<br>';
-            echo $neta.'<br>';
+            return array($this->_image_file, $selectSOURCE_result[$matched_index]['comment']);
         }
         else{
-            echo '素材データの検索に失敗しました。以下の理由により処理を中断します'.$selectSOURCE_result;
+            '素材データの検索に失敗しました。以下の理由により処理を中断します'.$selectSOURCE_result;
         }
     }
     
